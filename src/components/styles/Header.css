@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    margin: 50px auto;
+    gap: 15px;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+    color: white;
+    position: relative;
+    list-style-type: none;
+    font-size: 25px;
+}
