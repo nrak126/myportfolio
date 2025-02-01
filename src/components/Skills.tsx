@@ -62,7 +62,7 @@ const Tyottodekiru = styled.div`
   height: 100px;
 `;
 
-const Skills = () => {
+export function Skills() {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
 
   const handleMouseEnter = (skill: string) => {
@@ -159,6 +159,4 @@ const Skills = () => {
       </Tyottodekiru>
     </SkillsContainer>
   );
-};
-
-export default Skills;
+}
