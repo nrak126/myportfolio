@@ -76,6 +76,7 @@ export function Hobbies() {
           <h2>Drawing</h2>
           <Text>お絵描きするために液タブ買った。</Text>
           <Text>お絵描き難しい。</Text>
+          <Text>実はこのアイコン自分で描いたやつ。</Text>
           <Text>最近は友達と絵しりとりしてる。</Text>
         </Hobby>
         <Hobby></Hobby>
