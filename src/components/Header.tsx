@@ -1,4 +1,3 @@
-import "./styles/Header.css";
 import styled from "styled-components";
 import { Flex, Text } from "@radix-ui/themes";
 import { FaGithub } from "react-icons/fa";
