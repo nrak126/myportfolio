@@ -6,6 +6,7 @@ const LicenseContainer = styled.div`
   flex-direction: column;
   gap: 80px;
   padding: 16px;
+  padding-bottom: 100px;
   background-color: #282c34;
   color: white;
 `;

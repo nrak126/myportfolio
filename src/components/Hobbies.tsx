@@ -5,6 +5,7 @@ const HobbiesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 16px;
+  padding-bottom: 100px;
   gap: 80px;
   background-color: #282c34;
   color: white;

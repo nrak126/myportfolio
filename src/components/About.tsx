@@ -6,6 +6,7 @@ const AboutContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 16px;
+  padding-bottom: 16px;
   background-color: #282c34;
   color: white;
 `;
