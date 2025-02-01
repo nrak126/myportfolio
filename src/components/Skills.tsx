@@ -53,6 +53,7 @@ const Skill = styled.div`
 const HoveredSkill = styled.div`
   margin-top: 20px;
   font-size: 36px;
+  color: yellow;
   animation: ${fadeIn} 2s ease-in-out;
 `;
 
