@@ -4,7 +4,7 @@ const LicenseContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 80px;
   padding: 16px;
   background-color: #282c34;
   color: white;

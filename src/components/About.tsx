@@ -31,7 +31,7 @@ export function About() {
       <Img src={fuIcon} alt="fu" />
       <h1>はじめまして！</h1>
       <Texts>
-        <Text>愛知工業大学コンピュータシステム専攻一年の矢部大智です。</Text>
+        <Text>愛知工業大学コンピュータシステム専攻１年の矢部大智です。</Text>
         <Text>2006/01/26生まれ、福井県出身です。</Text>
         <Text>今年の目標はハッカソンにいっぱい出ることです。</Text>
         <Text>よろしくお願いします！！！</Text>
