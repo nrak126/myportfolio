@@ -5,7 +5,7 @@ const FooterContainer = styled(Flex)`
   display: flex;
   justify-content: center;
   padding: 16px;
-  background-color: #282c34;
+  background-color: #506650;
   color: white;
 `;
 

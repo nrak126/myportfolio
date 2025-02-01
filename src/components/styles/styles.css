@@ -8,6 +8,11 @@ h1 {
     text-align: center;
     color: white;
 }
+h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
 header {
     background-color: black;
 }

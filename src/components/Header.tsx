@@ -3,20 +3,20 @@ import { Flex, Text } from "@radix-ui/themes";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const LinkContainer = styled(Flex)`
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-direction: row;
-  background-color: #282c34;
-  color: white;
-`;
-
 const HeaderContainer = styled(Flex)`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  background-color: #282c34;
+  color: white;
+`;
+
+const LinkContainer = styled(Flex)`
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-direction: row;
   background-color: #282c34;
   color: white;
 `;

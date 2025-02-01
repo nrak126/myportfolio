@@ -17,7 +17,12 @@ const Img = styled.img`
 `;
 
 const Text = styled.p`
-  margin-left: 300px;
+  text-align: left;
+`;
+
+const Texts = styled.div`
+  margin: 0 auto;
+  width: 40%;
 `;
 
 export function About() {
@@ -25,10 +30,12 @@ export function About() {
     <AboutContainer>
       <Img src={fuIcon} alt="fu" />
       <h1>はじめまして！</h1>
-      <Text>愛知工業大学コンピュータシステム専攻一年の矢部大智です。</Text>
-      <Text>2006/01/26生まれ、福井県出身です。</Text>
-      <Text>今年の目標はハッカソンにいっぱい出ることです。</Text>
-      <Text>よろしくお願いします！！！</Text>
+      <Texts>
+        <Text>愛知工業大学コンピュータシステム専攻一年の矢部大智です。</Text>
+        <Text>2006/01/26生まれ、福井県出身です。</Text>
+        <Text>今年の目標はハッカソンにいっぱい出ることです。</Text>
+        <Text>よろしくお願いします！！！</Text>
+      </Texts>
     </AboutContainer>
   );
 }
