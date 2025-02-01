@@ -6,3 +6,9 @@
 
 npm i<br>
 npm run dev<br>
+
+## できなかった場合
+
+myportfolio-one-olive-19.vercel.app
+
+↑このURLで見れます。
