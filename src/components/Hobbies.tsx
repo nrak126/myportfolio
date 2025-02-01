@@ -27,10 +27,6 @@ const Text = styled.p`
   text-align: center;
 `;
 
-const Tail = styled.h3`
-  text-align: right;
-`;
-
 export function Hobbies() {
   return (
     <HobbiesContainer>
@@ -83,7 +79,6 @@ export function Hobbies() {
         </Hobby>
         <Hobby></Hobby>
       </HobbiesList>
-        <Tail>ここまで読んでくれてありがとう</Tail>
     </HobbiesContainer>
   );
 }
