@@ -54,7 +54,7 @@ export function Hobbies() {
           <Text>藤井風が好き。</Text>
           <Text>insaneintherainmusic大好き。</Text>
           <Text>
-            ADOFAIやってて気に入った曲とか、たまに界隈曲とか聞いてる。
+            ゲームやってて気に入った曲とか、たまに界隈曲とか聞いてる。
           </Text>
           <Text>
             自分でも曲を作ってみたりするけど難しすぎて毎回挫折してる。
