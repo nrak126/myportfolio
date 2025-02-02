@@ -50,15 +50,24 @@ const Skill = styled.div`
   transition-duration: 0.3s;
 `;
 
-const HoveredSkill = styled.div`
+const HoveredSkillNihongo = styled.div`
   margin-top: 20px;
   font-size: 36px;
   color: yellow;
+  text-align: center;
+  animation: ${fadeIn} 2s ease-in-out;
+`;
+const HoveredSkillEigo = styled.div`
+  margin-top: 20px;
+  font-size: 36px;
+  color: white;
+  text-align: center;
   animation: ${fadeIn} 2s ease-in-out;
 `;
 
 const Tyottodekiru = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100px;
 `;
@@ -155,7 +164,10 @@ export function Skills() {
       </SkillsList>
       <Tyottodekiru>
         {hoveredSkill && (
-          <HoveredSkill>ワタシハ {hoveredSkill} チョットデキル</HoveredSkill>
+          <>
+            <HoveredSkillNihongo>ワタシハ {hoveredSkill} チョットデキル</HoveredSkillNihongo>
+            <HoveredSkillEigo>I can develop {hoveredSkill} a little</HoveredSkillEigo>
+          </>
         )}
       </Tyottodekiru>
     </SkillsContainer>
