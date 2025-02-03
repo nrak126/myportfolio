@@ -165,8 +165,9 @@ export function Skills() {
       <Tyottodekiru>
         {hoveredSkill && (
           <>
-            <HoveredSkillNihongo>ワタシハ {hoveredSkill} チョットデキル</HoveredSkillNihongo>
-            <HoveredSkillEigo>I can develop {hoveredSkill} a little</HoveredSkillEigo>
+            <HoveredSkillNihongo>
+              ワタシハ {hoveredSkill} チョットデキル
+            </HoveredSkillNihongo>
           </>
         )}
       </Tyottodekiru>
