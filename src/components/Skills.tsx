@@ -57,13 +57,6 @@ const HoveredSkillNihongo = styled.div`
   text-align: center;
   animation: ${fadeIn} 2s ease-in-out;
 `;
-const HoveredSkillEigo = styled.div`
-  margin-top: 20px;
-  font-size: 36px;
-  color: white;
-  text-align: center;
-  animation: ${fadeIn} 2s ease-in-out;
-`;
 
 const Tyottodekiru = styled.div`
   display: flex;
